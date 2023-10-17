@@ -4,12 +4,13 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: #e3f2fe;
+    color: #fff;
 }
 .container{
     width:  780px;
-    border: 1px solid red;
     border-radius: 20px ;
    padding: 100px 40px;
+   background-color: #000;
 }
 header h2{
     font-size: 1.6rem;
@@ -34,4 +35,23 @@ header .column span{
     background: #4b4b4b;
     cursor: pointer;
     position: relative;
+}
+.keys-check input::before{
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: inherit;
+    top: 3.3px;
+    left: 2px;
+    transition: all 0.3s ease;
+}
+.keys-check input:checked::before{
+    left: 2.1rem;
+    background-color: #8c8c8c;
+}
+.piano-keys{
+    display: flex;
+    margin-top: 40px;
 }
