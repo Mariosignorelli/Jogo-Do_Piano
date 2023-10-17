@@ -8,7 +8,7 @@ body{
     color: #fff;
 }
 .container{
-    width:  780px;
+    width:  680px;
     border-radius: 20px ;
    padding: 100px 40px;
    background-color: #000;
@@ -62,6 +62,7 @@ header .column span{
 .piano-keys{
     display: flex;
     margin-top: 40px;
+    align-items: center;
 }
 .piano-keys .key{
     list-style: none;
@@ -70,7 +71,7 @@ header .column span{
     user-select: none;
     position: relative;
     text-transform: uppercase;
-    margin-left: 40px;
+    
 }
 .piano-keys .white{
     width: 70px;
